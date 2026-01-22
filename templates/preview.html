@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Edit & Preview Email</title>
+</head>
+
+<body>
+
+    <h2>Edit & Preview Email</h2>
+
+    <form method="POST">
+
+        <label><strong>To (HR Email):</strong></label><br>
+        <input type="email" name="hr_email" value="{{ hr_email }}" required style="width: 400px;"><br><br>
+
+        <label><strong>Subject:</strong></label><br>
+        <input type="text" name="subject" value="{{ subject }}" required style="width: 600px;"><br><br>
+
+        <label><strong>Email Body:</strong></label><br>
+        <textarea name="email_body" rows="18" cols="90" required>{{ email_body }}</textarea><br><br>
+
+        <button type="submit">Confirm & Send</button>
+
+    </form>
+
+    <br>
+    <a href="/">← Go back & regenerate</a>
+
+</body>
+
+</html>

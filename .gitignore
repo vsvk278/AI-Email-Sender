@@ -1,0 +1,16 @@
+# Environment variables
+.env
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Uploads & user files
+uploads/
+
+# PDFs / resumes
+*.pdf
+
+# OS files
+.DS_Store
+Thumbs.db
